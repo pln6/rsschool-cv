@@ -51,7 +51,7 @@ No experience yet.
 ## Education
 * University: Warsaw University of Life Sciences, Informatics and Econometrics (2. year of studies)
 * Courses:
-+ RS Schools Course "JavaScript/Front-End. Stage 0" (in progress)
++ RS Schools Course 'JavaScript/Front-End. Stage 0' (in progress)
 ## Languages
 * English - Intermediate
 * Russian - native
