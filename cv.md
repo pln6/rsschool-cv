@@ -15,6 +15,7 @@ I am always ready for new challenges, as I am quite a fast learner.
 * Microsoft Office
 * Statistics
 ## Code example
+```
 static bool IsAVowel(char letter)
         {
             bool ifV= false;
@@ -46,6 +47,7 @@ static bool IsAVowel(char letter)
             }
             else return false;
         }
+  ```
 ## Experience
 No experience yet.
 ## Education
