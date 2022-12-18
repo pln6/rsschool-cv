@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Corben&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <div class="container">      
+      <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#aboutmyself" class="nav-link">About Myself</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#codeexample" class="nav-link">Code Example</a></li>
+        <li class="nav-item"><a href="#exprerience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="container-item">
+        <img class="myphoto" src="image.jpg" alt="my photo">
+        <section class="section" id="contacts">
+          <h2 class="section-title"> Contacts</h2>
+          <ul>
+            <li> Location: Warsaw, Poland</li>
+            <li>Telephone: +48 608-507-396</li>
+            <li> Email:<a href = "mailto: polina.ionina04@gmail.com"> polina.ionina04@gmail.com </a></li>
+            <li> Git-hub:<a href="https://github.com/pln6"> pln6</a> </li>
+          </ul>
+        </section>
+      </div>
+    <div class="container-item">
+      <section class="section">
+        <h1 class="section-title"> Palina Ionina</h1>
+      </section>
+      <section class="section" id="aboutmyself">
+        <h2 class="section-title"> About Myself</h2>
+          <p>I am a very determined and responsible person with good team-work skills and a huge willing to gaining knowlege and skills in IT field. I am always ready for new challenges, as I am quite a fast learner.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title"> Skills</h2>
+        <ul>
+          <li> C#</li>
+          <li> R</li>
+          <li> HTML, CSS</li>
+          <li> SQL</li>
+          <li> Microsoft Office</li>
+          <li> Statistics</li>
+        </ul>
+      </section>
+      <section class="section" id="codeexample">
+        <h2 class="section-title"> Code Example</h2>
+        <pre>
+          <code>
+             static bool IsAVowel(char letter)
+           {
+             bool ifV= false;
+             string text = "EUIOAaeuio";
+             for (int i = 0; i < text.Length; i++)
+              {
+                 if (letter == text[i])
+                 {
+                   ifV=true;
+                 }
+               }
+             return ifV;        
+           }
+             static bool IsThereAVowel(string text)
+           {
+             int count = 0;
+             for (int i = 0; i < text.Length; i++)
+             {
+               if (IsAVowel(text[i])==true)
+               {
+                 count++;
+               }
+             }
+             if (count >= 1)
+             {
+               return true;
+             }
+             else return false;
+           }
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title"> Experience</h2>
+        <p> No experience yet.</p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title"> Education</h2>
+        <ul>
+          <li> University: Warsaw University of Life Sciences, Informatics and Econometrics (2. year of studies)</li>
+          <li> Courses:</li>
+          <ul type = "circle">
+            <li> RS Schools Course "JavaScript/Front-End. Stage 0" (in progress)</li>
+          </ul>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title"> Languages</h2>
+        <ul>
+          <li>English - Intermediate</li>
+          <li> Russian - Native</li>
+          <li>Polish - B2</li>
+        </ul>
+      </section>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <a href="https://rs.school/js/"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="School Logo"></a>
+    <p class="year">&copy 2022</p>
+    <a class="githublink" href="https://github.com/pln6"> pln6</a> 
+  </footer>
+</body>
+</html>
