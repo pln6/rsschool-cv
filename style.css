@@ -1,13 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+.logo {
+width: 10%;
+height: 8%;
+margin:5px;
+display: inline-block;
+margin-right:500px;
+margin-left: 60px;
+}
+.githublink {
+  
+  display: inline-block;
+}
+.year {
+  margin-right:500px;
+  display: inline-block;
+}
 body {
-  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Corben', sans-serife;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #DCDCDC;
 }
-
-h1 {
-  color: blue;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
+.section-title {
   font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
+header {
+  background-color: #738bc7;
+  align-items: center;
+}
+footer {
+  background-color: #738bc7;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  margin: 166px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  white-space:nowrap;
+}
+.container-item {
+  white-space: normal;
+  display: inline-block;
+  width: 63%;
+  vertical-align: top;
+  margin-top: 4%;
+}
+.container .container-item:first-child {
+  margin-right:4%;
+  width:33%;
+  
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+
+.myphoto {
+  width: 50%;
+  height: 60%;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+html {
+  scroll-behavior: smooth; 
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.nav-item a {
+  cursor: pointer;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.nav-item a:hover {
+  color: #B0C4DE;
+}
+
+
+h2 {
+  background-color: #B0C4DE;
+}
+
+
+
