@@ -103,6 +103,8 @@ html {
 h2 {
   background-color: #B0C4DE;
 }
-
+.circle {
+ list-style-type: circle;
+}
 
 
